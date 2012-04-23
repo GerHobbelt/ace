@@ -296,7 +296,7 @@ split.on("focus", function(editor) {
 });
 env.split = split;
 window.env = env;
-window.ace = env.editor;
+window.ace = window.editor = env.editor;
 
 var docEl = document.getElementById("doc");
 var modeEl = document.getElementById("mode");
